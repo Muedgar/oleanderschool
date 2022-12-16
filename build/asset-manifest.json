@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9489b88b.css",
-    "main.js": "/static/js/main.9e597e05.js",
+    "main.css": "/static/css/main.63531a4a.css",
+    "main.js": "/static/js/main.38ff7f76.js",
     "static/media/slideImageOne.png": "/static/media/slideImageOne.672d063ce87105bb3efe.png",
     "static/media/slideImageThree.gif": "/static/media/slideImageThree.02d1e13fe299f10e2a93.gif",
     "static/media/bigimagethree.jpeg": "/static/media/bigimagethree.8dcb23595644dc9c0cfa.jpeg",
@@ -24,11 +24,11 @@
     "static/media/education.svg": "/static/media/education.1ec978decb4d35b5b8ee6d5345f8e294.svg",
     "static/media/whatis.svg": "/static/media/whatis.f2684be582c74faca8213fa3fb13bca5.svg",
     "static/media/chalkboard.svg": "/static/media/chalkboard.e71d95e2b04f33c67310a2273ac4bef4.svg",
-    "main.9489b88b.css.map": "/static/css/main.9489b88b.css.map",
-    "main.9e597e05.js.map": "/static/js/main.9e597e05.js.map"
+    "main.63531a4a.css.map": "/static/css/main.63531a4a.css.map",
+    "main.38ff7f76.js.map": "/static/js/main.38ff7f76.js.map"
   },
   "entrypoints": [
-    "static/css/main.9489b88b.css",
-    "static/js/main.9e597e05.js"
+    "static/css/main.63531a4a.css",
+    "static/js/main.38ff7f76.js"
   ]
 }
