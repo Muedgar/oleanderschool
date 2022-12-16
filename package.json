@@ -10,7 +10,6 @@
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.2",
-    "create-app-react": "^1.0.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-bootstrap-icons": "^1.9.1",
@@ -47,9 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": { 
-      "node": "16.13.2",
-      "npm": "8.1.2"
-    }
+  }
 }
