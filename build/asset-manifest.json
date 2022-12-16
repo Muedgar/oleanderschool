@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9489b88b.css",
+    "main.js": "/static/js/main.9e597e05.js",
+    "static/media/slideImageOne.png": "/static/media/slideImageOne.672d063ce87105bb3efe.png",
+    "static/media/slideImageThree.gif": "/static/media/slideImageThree.02d1e13fe299f10e2a93.gif",
+    "static/media/bigimagethree.jpeg": "/static/media/bigimagethree.8dcb23595644dc9c0cfa.jpeg",
+    "static/media/bigimagetwo.jpeg": "/static/media/bigimagetwo.419ca2f19b0e3382f3ba.jpeg",
+    "static/media/logo.png": "/static/media/logo.70298870c9e540a0d255.png",
+    "static/media/OpenSans-Medium.ttf": "/static/media/OpenSans-Medium.a4894b36b47378c77c5f.ttf",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.fa428cdd2e334e2be904.ttf",
+    "static/media/slideImageSix.jpeg": "/static/media/slideImageSix.c78965ca72c4cbc607e6.jpeg",
+    "static/media/slideImageFive.webp": "/static/media/slideImageFive.0b909bb5f8ac86fd9db4.webp",
+    "static/media/bigimage.jpeg": "/static/media/bigimage.4bb9ecf718301d235a1b.jpeg",
+    "static/media/slideImageTwo.jpeg": "/static/media/slideImageTwo.106fda13a67977d25625.jpeg",
+    "static/media/slideImageFour.jpeg": "/static/media/slideImageFour.093e5bf22a7b3b65cc00.jpeg",
+    "static/media/school.svg": "/static/media/school.549e56ae323365a51c5b078150bc2e67.svg",
+    "static/media/graduate.svg": "/static/media/graduate.094bca42faf88d80556d4a0a55af9645.svg",
+    "index.html": "/index.html",
+    "static/media/customer.svg": "/static/media/customer.f38ba98e66fe5802d0ab64e7d0fa3029.svg",
+    "static/media/book.svg": "/static/media/book.e9fe6a1edd3105621f4a0ddc3da2460e.svg",
+    "static/media/teacher.svg": "/static/media/teacher.b983e09b2388c986e2c37318272d9d9b.svg",
+    "static/media/education.svg": "/static/media/education.1ec978decb4d35b5b8ee6d5345f8e294.svg",
+    "static/media/whatis.svg": "/static/media/whatis.f2684be582c74faca8213fa3fb13bca5.svg",
+    "static/media/chalkboard.svg": "/static/media/chalkboard.e71d95e2b04f33c67310a2273ac4bef4.svg",
+    "main.9489b88b.css.map": "/static/css/main.9489b88b.css.map",
+    "main.9e597e05.js.map": "/static/js/main.9e597e05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9489b88b.css",
+    "static/js/main.9e597e05.js"
+  ]
+}
