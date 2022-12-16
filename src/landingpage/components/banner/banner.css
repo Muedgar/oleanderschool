@@ -1,0 +1,238 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('./fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('./fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('./fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+    font-weight: 400;
+}
+.swiper-slide {
+    width: 100vw;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.swiper-slide .card {
+    width: 75%;
+    height: 95%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px rgb(116,188,65);
+        cursor: pointer;
+        border: 1px solid rgb(203, 203, 203);
+}
+
+
+ @media (max-width: 992px) {
+    .swiper-slide .card .card-img-top {
+        width: 100%;
+        height: 30%;
+        padding: 30px;
+     }
+     .swiper-slide .card .card-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .swiper-slide .card .card-body .card-title {
+        font-family: 'OpenSans';
+        font-size: 1.5em;
+        font-weight: bold;
+        color: black;
+        text-shadow: -1px -1px rgb(116,188,65);
+    }
+    .swiper-slide .card .card-body .card-text {
+        font-family: 'OpenSans';
+        font-size: 1.3;
+        font-weight: 500;
+    }
+    .swiper-slide .card .card-body .btn {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1em;
+        letter-spacing: .1em;
+        transition: .5s;
+        position: relative;
+        border: 1px solid black;
+    }
+    .swiper-slide .card .card-body .btn:hover {
+        letter-spacing: .05em;
+        background:#27282c;
+        color: white;
+        box-shadow: 0 0 35px rgb(116,188,65);
+    }
+    .swiper-slide .card .card-body .btn::before {
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background: rgb(116,188,65);
+    }
+    .swiper-slide .card .card-body .btn span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .swiper-slide .card .card-body .btn i {
+        position: absolute;
+        inset: 0;
+        display: block;
+    }
+    .swiper-slide .card .card-body .btn i::before {
+        content: '';
+        position: absolute;
+        top: -3.5px;
+        left: 80%;
+        width: 50px;
+        height: 10px;
+        border: 2px solid rgb(152, 151, 151);
+        background-color: #bfbfc0;
+        transform: translateX(-50%);
+        transition: .5s;
+    }
+    .swiper-slide .card .card-body .btn:hover i::before {
+        width: 60px;
+        left: 20%;
+    }
+
+    .swiper-slide .card .card-body .btn i::after {
+        content: '';
+        position: absolute;
+        bottom: -3.5px;
+        left: 20%;
+        width: 50px;
+        height: 10px;
+        border: 2px solid rgb(152, 151, 151);
+        background-color: #bfbfc0;
+        transform: translateX(-50%);
+        transition: .5s;
+    }
+    .swiper-slide .card .card-body .btn:hover i::after {
+        width: 60px;
+        left: 80%;
+    }
+ }
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    color: rgb(116,188,65);
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    color: rgb(116,188,65);
+}
+.swiper-pagination-bullet {
+    background-color: rgb(116,188,65);
+}
+@media (min-width: 992px) {
+    .swiper-slide .card {
+        width: 80%;
+        height: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 50px auto;
+        box-shadow: 4px 4px rgb(116,188,65);
+        cursor: pointer;
+        border: 1px solid rgb(203, 203, 203);
+    }
+    .swiper-slide .card .card-img-top {
+       width: 50%;
+       padding: 30px;
+    }
+    .swiper-slide .card .card-body {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .swiper-slide .card .card-body .card-title {
+        font-family: 'OpenSans';
+        font-size: 1.5em;
+        font-weight: bold;
+        color: black;
+        text-shadow: -1px -1px rgb(116,188,65);
+    }
+    .swiper-slide .card .card-body .card-text {
+        font-family: 'OpenSans';
+        font-size: 1.3;
+        font-weight: 500;
+    }
+
+    .swiper-slide .card .card-body .btn {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        letter-spacing: .1em;
+        transition: .5s;
+        position: relative;
+        border: 1px solid black;
+    }
+    .swiper-slide .card .card-body .btn:hover {
+        letter-spacing: .05em;
+        background:#27282c;
+        color: white;
+        box-shadow: 0 0 35px rgb(116,188,65);
+    }
+    .swiper-slide .card .card-body .btn::before {
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background: rgb(116,188,65);
+    }
+    .swiper-slide .card .card-body .btn span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .swiper-slide .card .card-body .btn i {
+        position: absolute;
+        inset: 0;
+        display: block;
+    }
+    .swiper-slide .card .card-body .btn i::before {
+        content: '';
+        position: absolute;
+        top: -3.5px;
+        left: 80%;
+        width: 50px;
+        height: 10px;
+        border: 2px solid rgb(152, 151, 151);
+        background-color: #bfbfc0;
+        transform: translateX(-50%);
+        transition: .5s;
+    }
+    .swiper-slide .card .card-body .btn:hover i::before {
+        width: 60px;
+        left: 20%;
+    }
+
+    .swiper-slide .card .card-body .btn i::after {
+        content: '';
+        position: absolute;
+        bottom: -3.5px;
+        left: 20%;
+        width: 50px;
+        height: 10px;
+        border: 2px solid rgb(152, 151, 151);
+        background-color: #bfbfc0;
+        transform: translateX(-50%);
+        transition: .5s;
+    }
+    .swiper-slide .card .card-body .btn:hover i::after {
+        width: 60px;
+        left: 80%;
+    }
+}
