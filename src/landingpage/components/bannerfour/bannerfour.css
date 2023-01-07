@@ -116,6 +116,7 @@
     width: 100%;
     height: 300px;
     background-size: contain;
+    object-fit: cover;
   }
 
   .contentSlider .swiper-slide div h4 {
@@ -153,7 +154,7 @@
     text-align: left;
     font-family: 'OpenSans';
     font-weight: lighter;
-    font-size: 1em;
+    font-size: 0.7em;
   }
   .contentSlider .swiper-slide div div {
     width: 90%;
@@ -264,6 +265,7 @@
     width: 100%;
     height: 300px;
     background-size: contain;
+    object-fit: cover;
   }
 
   .contentSlider .swiper-slide div h4 {

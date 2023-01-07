@@ -1,0 +1,106 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('./fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('./fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf');
+    font-weight: 500;
+}
+
+.swiper-container {
+  width: 480px;
+}
+
+
+
+@font-face {
+    font-family: OpenSans;
+    src: url('./fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@media (max-width: 992px) {
+   /*desktop design*/
+   .testimonialContainer {
+    padding-top: 50px;
+   }
+
+   .testimonialContainer h1 {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 4em;
+    color: rgb(116,188,65);
+    text-decoration: 0 5px 5px 0 black;
+    font-weight: bolder;
+    z-index: 2;
+    margin: auto;
+    position: relative;
+    word-wrap: break-word;
+   }
+   .testimonialsSwiper {
+    margin-top: -50px;
+    height: 500px;
+   }
+   .testimonialsSwiper .swiper-button-prev {
+     display: none;
+    }
+    .testimonialsSwiper .swiper-button-next {
+        display: none;
+       }
+   .testimonialsSwiper .swiper-wrapper .swiper-slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+}
+
+
+@media (min-width: 992px) {
+    /*desktop design*/
+   .testimonialContainer {
+    padding-top: 50px;
+   }
+
+   .testimonialsSwiper .swiper-button-prev {
+    display: none;
+   }
+   .testimonialsSwiper .swiper-button-next {
+       display: none;
+      }
+      .testimonialsSwiper .swiper-pagination-bullet {
+        width: 15px;
+    height: 15px;
+      }
+      .testimonialsSwiper .swiper-pagination-bullet-active {
+        border: 1px solid black;
+      }
+   .testimonialsSwiper {
+    margin-top: -50px;
+    height: 500px;
+   }
+   .testimonialsSwiper .swiper-wrapper .swiper-slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+   .testimonialContainer h1 {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 4em;
+    color: rgb(116,188,65);
+    text-decoration: 0 5px 5px 0 black;
+    font-weight: bolder;
+    z-index: 2;
+    margin: auto;
+    position: relative;
+    word-wrap: break-word;
+   }
+}

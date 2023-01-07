@@ -42,6 +42,7 @@
     width: 90%;
     height: 600px;
     z-index: 1;
+    object-fit: cover;
 }
 
 .bannerThreeContainer .leftContainer .imgTwo {
@@ -52,6 +53,7 @@
     position: absolute;
     bottom: 100px;
     left: 10px;
+    object-fit: cover;
 }
 
 .bannerThreeContainer .leftContainer .imgThree {
@@ -193,6 +195,7 @@
         width: 100%;
         height: 600px;
         z-index: 1;
+        object-fit: cover;
     }
 
     .bannerThreeContainer .leftContainer .imgTwo {
@@ -203,6 +206,7 @@
         position: absolute;
         bottom: 100px;
         left: -50px;
+        object-fit: cover;
     }
 
     .bannerThreeContainer .leftContainer .imgThree {

@@ -25,7 +25,7 @@ function BannerFour() {
     const [bannerImgFour, setBannerImgFour] = useState([]);
     
     useEffect(() => {
-        setBannerImgFour([slideImageOne,slideImageTwo,slideImageThree,slideImageFour,slideImageFive,slideImageSix]);
+        setBannerImgFour([slideImageOne,slideImageTwo,slideImageThree,slideImageFour,slideImageFive,slideImageSix,slideImageSix]);
         console.log("called use effect");
     },[])
 

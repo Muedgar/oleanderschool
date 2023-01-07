@@ -1,0 +1,57 @@
+.testimony-wrapper {
+    width: 90%;
+    height: fit-content;
+    background-color: rgb(67, 69, 98);
+    margin-top: 40px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.testimony-wrapperImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    position:absolute;
+    top: -30px;
+    left: 45%;
+    border: 1px solid black;
+}
+
+.testimony-rate {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony-rate img {
+    width: 30px;
+    height: 30px;
+    margin-top: 70px;
+}
+
+.testimony-wrapper p {
+    width: 80%;
+    margin: 20px auto;
+    color: rgb(200, 200, 200);
+}
+
+.testimony-wrapper span {
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: white;
+}
+
+.testimony-quote {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+    bottom: -20px;
+    border: 1px solid #333;
+}

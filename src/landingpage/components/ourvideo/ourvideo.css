@@ -21,7 +21,7 @@
     /*desktop design*/
     .ourVideoContainer {
         width: 100%;
-        height: 500px;
+        height: fit-content;
         margin: 0;
         padding: 0;
         position: relative;
@@ -67,7 +67,7 @@
     /*desktop design*/
     .ourVideoContainer {
         width: 100%;
-        height: 500px;
+        height: fit-content;
         margin: 0;
         padding: 0;
         position: relative;

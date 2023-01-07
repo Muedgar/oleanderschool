@@ -14,7 +14,7 @@ function NavBar() {
     const [isStudentLifeActive, setIsStudentLifeActive] = useState(false);
 
   return (
-    <Navbar expand="lg">
+    <Navbar id="navId" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
             <img src={logo} alt="logo" />

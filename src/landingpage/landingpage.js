@@ -9,6 +9,9 @@ import ContactUs from "./components/contactus/contactus";
 import OurVideo from "./components/ourvideo/ourvideo";
 
 import "./landingpage.css";
+import Gallery from "./components/gallery/gallery";
+import Testimonial from "./components/testimonial/testimonial";
+import Teachers from "./components/ourteachers/teachers";
 
 
 export const LandingPage = () => {
@@ -21,6 +24,9 @@ export const LandingPage = () => {
             <BannerFour />
             <ContactUs />
             <OurVideo />
+            <Gallery />
+            <Testimonial />
+            <Teachers />
         </div>
     )
 }
