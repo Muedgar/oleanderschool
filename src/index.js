@@ -6,12 +6,42 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import Dashboard from './dashboard/dashboard';
+import Programs from './programs/programs';
+import Admission from './admission/admission';
+import SchoolValues from './schoolvalues/schoolvalues';
+import StudentLife from './studentlife/studentlife';
+import Donation from './donation/donation';
 
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App />
+    },
+    {
+        path: "/dashboard",
+        element: <Dashboard />
+    },
+    {
+        path: "/programs",
+        element: <Programs />
+    },
+    {
+        path: "/admissionprocess",
+        element: <Admission />
+    },
+    {
+        path: "/schoolvalue",
+        element: <SchoolValues />
+    },
+    {
+        path: "/studentlife",
+        element: <StudentLife />
+    },
+    {
+        path: "/donation",
+        element: <Donation />
     }
 ])
 

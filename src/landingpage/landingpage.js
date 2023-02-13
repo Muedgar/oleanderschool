@@ -6,12 +6,13 @@ import BannerTwo from "./components/bannertwo/bannertwo";
 import BannerThree from "./components/bannerthree/bannerthree";
 import BannerFour from "./components/bannerfour/bannerfour";
 import ContactUs from "./components/contactus/contactus";
-import OurVideo from "./components/ourvideo/ourvideo";
+// import OurVideo from "./components/ourvideo/ourvideo";
 
 import "./landingpage.css";
 import Gallery from "./components/gallery/gallery";
-import Testimonial from "./components/testimonial/testimonial";
+// import Testimonial from "./components/testimonial/testimonial";
 import Teachers from "./components/ourteachers/teachers";
+import Footer from "./components/footer/footer";
 
 
 export const LandingPage = () => {
@@ -23,10 +24,11 @@ export const LandingPage = () => {
             <BannerThree />
             <BannerFour />
             <ContactUs />
-            <OurVideo />
+            {/* <OurVideo /> */}
             <Gallery />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Teachers />
+            <Footer />
         </div>
     )
 }

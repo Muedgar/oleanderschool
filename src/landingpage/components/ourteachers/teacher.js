@@ -14,9 +14,9 @@ function Teacher(props) {
                     <img src={props.image} alt="teacher" aria-hidden="true" />
                 </div>
                 <div className="teacher-back-face">
-                    <p>Name: <span>Stella Roffin</span></p>
-                    <p>Responsibility: <span>Teacher of Mathematics</span></p>
-                    <p>Contact: <span>+250 780 530 000</span></p>
+                    <p>Name: <span>{props.name}</span></p>
+                    <p>Responsibility: <span>{props.responsibility}</span></p>
+                    {/* <p>Contact: <span>+250 780 530 000</span></p> */}
                 </div>
             </div>
           </div>

@@ -30,25 +30,29 @@ function NavBar() {
                 document.getElementById("programs").classList.remove("active");
                 document.getElementById("admissions").classList.remove("active");
                 document.getElementById("school").classList.remove("active");
+                if(window.location.pathname !== "/") {
+                  window.location = "/";
+                }
+                // console.log("window location: ", window.location)
             }}
             >
               <NavDropdown.Item href="#home/3.1">Who we are</NavDropdown.Item>
               <NavDropdown.Item href="#home/3.2">Organizational Structure</NavDropdown.Item>
               <NavDropdown.Item href="#home/3.3">School history</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link id="programs" href="#ourprograms" onClick={() => {
+            <Nav.Link id="programs" href="/programs" onClick={() => {
                 setIsHomeActive(false);
                 setIsDonationActive(false);
                 setIsStudentLifeActive(false);
                 document.getElementById("programs").classList.add("active");
             }}>Our programs</Nav.Link>
-            <Nav.Link id="admissions" href="#admissionprocess"  onClick={() => {
+            <Nav.Link id="admissions" href="/admissionprocess"  onClick={() => {
                 setIsHomeActive(false);
                 setIsDonationActive(false);
                 setIsStudentLifeActive(false);
                 document.getElementById("admissions").classList.add("active");
             }}>Admission process</Nav.Link>
-            <Nav.Link id="school" href="#schoolvalue"  onClick={() => {
+            <Nav.Link id="school" href="/schoolvalue"  onClick={() => {
                 setIsHomeActive(false);
                 setIsDonationActive(false);
                 setIsStudentLifeActive(false);
@@ -61,6 +65,7 @@ function NavBar() {
                 document.getElementById("programs").classList.remove("active");
                 document.getElementById("admissions").classList.remove("active");
                 document.getElementById("school").classList.remove("active");
+                window.location = "/studentlife";
             }}>
               <NavDropdown.Item href="#studentlife/3.1">Visit us</NavDropdown.Item>
               <NavDropdown.Item href="#studentlife/3.2">News and events</NavDropdown.Item>
@@ -72,6 +77,7 @@ function NavBar() {
                 document.getElementById("programs").classList.remove("active");
                 document.getElementById("admissions").classList.remove("active");
                 document.getElementById("school").classList.remove("active");
+                window.location = "/donation";
             }}>
               <NavDropdown.Item href="#donation/3.1">Parents</NavDropdown.Item>
               <NavDropdown.Item href="#donation/3.2">Guardians</NavDropdown.Item>

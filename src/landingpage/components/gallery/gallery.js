@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import LightGallery from 'lightgallery/react';
 
 // import styles
@@ -10,9 +10,15 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
 // import images
-import imageOne from "./assets/bigimage.jpeg";
-import imageTwo from "./assets/bigimagetwo.jpeg";
-import imageThree from "./assets/bigimagethree.jpeg";
+import imageOne from "./assets/1.JPG";
+import imageTwo from "./assets/2.JPG";
+import imageThree from "./assets/3.JPG";
+import imageFour from "./assets/4.JPG";
+import imageFive from "./assets/5.JPG";
+import imageSix from "./assets/6.jpg";
+import imageSeven from "./assets/7.jpg";
+import imageEight from "./assets/8.jpg";
+import imageNine from "./assets/9.jpg";
 
 import "./gallery.css";
 
@@ -22,13 +28,22 @@ function Gallery() {
     const onInit = () => {
         
     };
-    const [images, setImages] = useState([imageOne,imageTwo,imageThree,imageOne,imageTwo,imageThree,imageOne,imageTwo,imageThree])
+    const [images, setImages] = useState([imageOne,imageTwo,imageThree,imageFour,imageFive,imageSix,imageSeven,imageEight,imageNine]);
+
+    useEffect(() => {
+        setImages([imageOne,imageTwo,imageThree,imageFour,imageFive,imageSix,imageSeven,imageEight,imageNine])
+    },[])
+
     return (
         <div className="galleryContainer">
             <div className="galleryActionCall">
                 <h1>Photo Gallery</h1>
-                <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Lorem ipsum dolor sit amet, consecteur adipiscing elit. Lorem ipsum dolor sit amet, consecteur adipiscing elit. Lorem ipsum dolor sit amet, consecteur adipiscing elit</p>
-                <button>View All Gallery</button>
+                <p></p>
+                <button onClick={e => {
+                    e.preventDefault();
+                    document.querySelector(".lg-react-element").children[0].click();
+
+                }}>View All Gallery</button>
             </div>
             <LightGallery
                 onInit={onInit}

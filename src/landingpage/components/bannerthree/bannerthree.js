@@ -2,8 +2,8 @@ import React from "react";
 
 import "./bannerthree.css";
 
-import img1 from "./assets/bigimage.jpeg";
-import img2 from "./assets/bigimagetwo.jpeg";
+import img1 from "./assets/DSC_6783.JPG";
+import img2 from "./assets/DSC_6767.JPG";
 import book from "./assets/book.svg";
 import chalkboard from "./assets/chalkboard.svg";
 import school from "./assets/school.svg";
@@ -18,8 +18,8 @@ function BannerThree() {
             </div>
             <div className="rightContainer">
                 <div className="title">
-                    <h1>Online Learning Platform</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh dolor, gravida faucibus dolor consectetur, pulvinar rhoncus risus. Fusce vel rutrum mi.</p>
+                    <h1>Online Learning Platforms</h1>
+                    <p>Our webspace and the G-Suite contain educational content and resources that offers our students everything they need in one place: lectures, resources, opportunities to meet and chat with other students, and more. </p>
                 </div>
                 <div className="body">
                     <div className="cards">
@@ -28,7 +28,7 @@ function BannerThree() {
                         </div>
                         <div className="cardContentContainer">
                             <h3>Special Education</h3>
-                            <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+                            <p>We focus on educating students in a way that accommodates their individual differences, disabilities, and special needs. </p>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ function BannerThree() {
                         </div>
                         <div className="cardContentContainer">
                             <h3>Honors classes</h3>
-                            <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+                            <p>We provide more in-depth classes on a subjects like Mathematics, science and social studies.</p>
                         </div>
                     </div>
 
@@ -50,7 +50,7 @@ function BannerThree() {
                         </div>
                         <div className="cardContentContainer">
                             <h3>Traditional academies</h3>
-                            <p>Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend</p>
+                            <p>We follow the country primary and nursery school curriculum program as provided by Rwanda Education Board.</p>
                         </div>
                     </div>
                 </div>
