@@ -1,0 +1,255 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 500;
+}
+
+
+
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 400;
+}
+
+.programs {
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+    margin: 0;
+    padding-top: 100px;
+    position: relative;
+}
+.programs h1 {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 4em;
+    color: black;
+    font-weight: bolder;
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.programs h1::before {
+    content: '';
+    position: absolute;
+    left: 48.5%;
+    bottom: -10px;
+    width: 60px;
+    height: 2px;
+    background-color: rgb(116,188,65);
+}
+
+#classesWeTeach {
+  margin-top: 50px;
+  width: 100vw;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .programs h1 {
+    font-size: 3em;
+  }
+  #classesWeTeach {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .programs h1 {
+    font-size: 2.5em;
+  }
+  #classesWeTeach {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .programs h1 {
+    font-size: 2em;
+  }
+  #classesWeTeach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.programCard {
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    background-color: #03c483;
+    transition: all .3s ease-out;
+  }
+
+  .programCard:hover {
+    box-shadow: 10px 0 20px black;
+  }
+  .programCard img {
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    object-fit: cover;
+  }
+
+  .programCard h4 {
+    position: absolute;
+    top: 266px;
+    right: 10px;
+    z-index: 1;
+    background-color: rgb(116,188,65);
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    box-shadow: -1px -5px 20px 0px black;
+    font-family: 'OpenSans';
+    font-size: 1em;
+  }
+
+  .programCard h3 {
+    width: 100%;
+    height: fit-content;
+    margin: 15px 0 0 15px;
+    padding: 5px;
+    text-align: left;
+    font-family: 'OpenSans';
+    font-weight: bolder;
+    font-size: 1.2em;
+  }
+  .programCard p {
+    width: 100%;
+    height: fit-content;
+    padding: 5px 6px 5px 15px;
+    word-wrap: break-word;
+    text-align: left;
+    font-family: 'OpenSans';
+    font-weight: lighter;
+    font-size: 0.7em;
+  }
+  .programCard div {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    align-self: center;
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+  }
+
+  .careerCard {
+    width: 80%;
+    overflow: hidden;
+    margin: 50px auto;
+    transition: all .3s ease-out;
+  }
+
+  .careerCard:hover {
+    box-shadow: 10px 0 20px black;
+  }
+
+  .careerCard h2 {
+    background-color: #03c483;
+    width: fit-content;
+    padding: 15px;
+    margin: 15px;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .careerCard p, li {
+    color: black;
+    font-family: 'OpenSans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+  }
+  .careerCard p{
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    word-wrap: break-word;
+  }
+
+  .careerCard ul {
+    padding: 15px 0 0 30px;
+  }
+  .careerCard ul li {
+    width: 95%;
+    list-style-type:decimal;
+    margin-top: 10px;
+    word-wrap: break-word;
+  }
+  
+  .careerCard div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .careerCard div button {
+    color: white;
+    background-color: #03c483;
+    padding: 20px;
+    position: relative
+  }
+  .careerCard div button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    content: "";
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    transition: all .3s ease-in;
+    opacity: 0;
+  }
+  .careerCard div button::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    content: "";
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transition: all .3s ease-in;
+    opacity: 0;
+  }
+
+  .careerCard div button:hover::before {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .careerCard div button:hover::after {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }

@@ -8,15 +8,19 @@ function ContactUs() {
     return(
         <div className="contactUsContainer">
             <h1>We are the best choice for your child</h1>
-            <p>
+            {/* <p>
             Lorem ipsum dolor sit amet, consecteur adipiscing elit.
             Lorem ipsum dolor sit amet, consecteur adipiscing elit.
             Lorem ipsum dolor sit amet, consecteur adipiscing elit.
             Lorem ipsum dolor sit amet, consecteur adipiscing elit.
             Lorem ipsum dolor sit amet, consecteur adipiscing elit.
             Lorem ipsum dolor sit amet, consecteur adipiscing elit.
-            </p>
-            <button>Contact Us</button>
+            </p> */}
+            <button onClick={e => {
+                e.preventDefault();
+                document.getElementById("callus").click();
+            }}>Contact Us</button>
+            <a target="_parent" id="callus" rel="noreferrer" href="tel:+250788507087" style={{display:"none"}}>Call us</a>
         </div>
     )
 }

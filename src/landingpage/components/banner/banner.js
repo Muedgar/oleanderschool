@@ -14,12 +14,12 @@ import {Slide3} from "./slide3";
 
 const Banner = () => {
     return (
-        <div>
+        <div id="hero">
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 4000,
+                    delay: 10000,
                     disableOnInteraction: false
                 }}
                 loop={true}

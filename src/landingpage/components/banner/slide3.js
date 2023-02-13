@@ -13,7 +13,10 @@ export const Slide3 = () => {
         <Card.Text>
             We provide quality education in line with Rwandan culture and Christian values through empowering children to become productive citizens.
         </Card.Text>
-        <Button variant="primary"><span>Learn More About Oleander!</span><i></i></Button>
+        <Button variant="primary" onClick={e=> {
+            e.preventDefault();
+            window.location = "/schoolvalue";
+        }}><span>Learn More About Oleander!</span><i></i></Button>
         </Card.Body>
         </Card>
     )

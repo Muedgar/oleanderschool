@@ -13,7 +13,10 @@ export const Slide2 = () => {
         <Card.Text>
             “Oleander Nursery and Primary School” works as private school regulated by Rwanda Ministry of Education (MINEDUC), it is also a legal registered school by Rwanda Development Board (RDB). 
         </Card.Text>
-        <Button variant="primary"><span>Learn More About Oleander!</span><i></i></Button>
+        <Button variant="primary" onClick={e=> {
+            e.preventDefault();
+            window.location = "/schoolvalue";
+        }}><span>Learn More About Oleander!</span><i></i></Button>
         </Card.Body>
         </Card>
     )

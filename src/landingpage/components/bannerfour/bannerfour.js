@@ -14,18 +14,61 @@ import { Pagination, Navigation } from "swiper";
 import './bannerfour.css';
 
 // import assets
-import slideImageOne from "./assets/slideImageOne.png";
-import slideImageTwo from "./assets/slideImageTwo.jpeg";
-import slideImageThree from "./assets/slideImageThree.gif";
-import slideImageFour from "./assets/slideImageFour.jpeg";
-import slideImageFive from "./assets/slideImageFive.webp";
-import slideImageSix from "./assets/slideImageSix.jpeg";
+import slideImageOne from "./assets/DSC_6736.JPG";
+import slideImageTwo from "./assets/DSC_6746.JPG";
+import slideImageThree from "./assets/DSC_6772.JPG";
+import slideImageFour from "./assets/DSC_6777.JPG";
+import slideImageFive from "./assets/DSC_6788.JPG";
+import slideImageSix from "./assets/DSC_6796.JPG";
 
 function BannerFour() {
     const [bannerImgFour, setBannerImgFour] = useState([]);
     
     useEffect(() => {
-        setBannerImgFour([slideImageOne,slideImageTwo,slideImageThree,slideImageFour,slideImageFive,slideImageSix,slideImageSix]);
+        setBannerImgFour([
+          {img: slideImageOne,
+          time: "08:00am - 08:45am",
+          title: "Mathematics",
+          description: "Primary level mathematics covers topics that are typically learned in early education.",
+          students: "36",
+          class: "P5"
+          },
+          {img:slideImageTwo,
+            time: "09:00am - 09:45am",
+            title: "Science and Elementary Technology",
+            description: "Learning about states of matter, forms of energy and more. ",
+            students: "39",
+            class: "P4"},
+          {img:slideImageThree,
+            time: "10:00am - 10:45am",
+            title: "Social Studies",
+            description: "Social science and the humanities, including history, culture and geography",
+            students: "29",
+            class: "P2"},
+          {img:slideImageFour,
+            time: "11:00am - 11:45am",
+            title: "English",
+            description: "English is a West Germanic language in the Indo-European language family.",
+            students: "27",
+            class: "P1"},
+          {img:slideImageFive,
+            time: "14:00pm - 14:45pm",
+            title: "Kinyarwanda",
+            description: "Ikinyarwanda, is a Bantu language and the national language of Rwanda.",
+            students: "33",
+            class: "P3 A"},
+          {img:slideImageSix,
+            time: "15:00pm - 15:45pm",
+            title: "French",
+            description: "French is a language of the Indo-European family.",
+            students: "34",
+            class: "P3 B"},
+          {img:slideImageSix,
+            time: "16:00pm - 16:45pm",
+            title: "Reading and Writing",
+            description: "Literacy is your ability to read and write. These skills are important for school, at work, and at home.",
+            students: "31",
+            class: "P3 C"}]);
         console.log("called use effect");
     },[])
 
@@ -63,20 +106,16 @@ function BannerFour() {
             },
           }}
       >
-        {bannerImgFour.map((img,i) => (
+        {bannerImgFour.map((data,i) => (
             <SwiperSlide key={`bannerFourImgContainer${i}`}>
                 <div>
-                    <img src={img} alt={`bannerfouralt${i}`} />
-                    <h4>08:00 am - 10:00 am</h4>
-                    <h3>Education Programs System</h3>
-                    <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit.
-
-                    Lorem ipsum dolor sit amet, consecteur adipiscing elit.
-                    
-                    </p>
+                    <img src={data.img} alt={`bannerfouralt${i}`} />
+                    <h4>{data.time}</h4>
+                    <h3>{data.title}</h3>
+                    <p>{data.description}</p>
                     <div>
-                        <p>Students: 30</p>
-                        <p>Fee: $150</p>
+                        <p>Students: {data.students}</p>
+                        <p>Class: {data.class}</p>
                     </div>
                 </div>
             </SwiperSlide>
