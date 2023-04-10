@@ -6,7 +6,7 @@ import NavBar from "./components/navbar/navbar";
 function Dashboard() {
   return (
     <>
-        <NavBar />
+        {/* this is a signup / signin screen that decides which dashboard to route the user to */}
     </>
   );
 }
