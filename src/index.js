@@ -13,8 +13,13 @@ import SchoolValues from './schoolvalues/schoolvalues';
 import StudentLife from './studentlife/studentlife';
 import Donation from './donation/donation';
 
+import ErrorPage from './errorPage';
 
 const router = createBrowserRouter([
+    {
+        path: "*",
+        element: <ErrorPage />
+    },
     {
         path: "/",
         element: <App />

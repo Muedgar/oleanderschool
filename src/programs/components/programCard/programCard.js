@@ -5,6 +5,10 @@ import './programcard.css';
 
 
 import data from "./career";
+import GetSummary from "../../getSummary";
+import ErrorBoundary from '../../ErrorBoundary';
+import ErrorMessage from "../../ErrorMessage";
+import GetHistory from "../../getHistory";
 
 function ProgramCard() {
     const [careers, setCareers] = useState([]);
@@ -14,6 +18,10 @@ function ProgramCard() {
         console.log("called use effect");
     },[])
 
+
+     // getData from backend
+
+
     return(
         <div className="programs">
             <h1>Our Programs</h1>
@@ -22,17 +30,17 @@ function ProgramCard() {
                     <div key={index} className="careerCard">
                 <h2>
                     <span>Program Title:</span>
-                    <span>{career.title}</span>
+                    <span>Nturi Wenyine ('You are not alone') Program</span>
                 </h2>
                 <h2>Summary:</h2>
-                <p>{career.summary}</p>
+                <ErrorBoundary fallback={<ErrorMessage message="Loading summary ..." />}>
+                            <GetSummary />
+                </ErrorBoundary>
                 <h2>History:</h2>
-                <ul>
-                    {career.duties.map((duty,index)=> (
-                        <li key={index}>{duty}</li>
-                    ))}
-                </ul>
-
+                
+                <ErrorBoundary fallback={<ErrorMessage message="Loading summary ..." />}>
+                            <GetHistory />
+                </ErrorBoundary>
                 <h2>Getting involved:</h2>
                 <ul>
                     {career.requirements.map((requirement,index)=> (

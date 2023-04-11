@@ -6,9 +6,8 @@ import "./teachers.css";
 //
 import teacher1 from "./assets/1.JPG";
 import teacher2 from "./assets/2.JPG";
-import teacher3 from "./assets/3.JPG";
 
-import teacher4 from "./assets/4.JPG";
+
 import teacher5 from "./assets/5.JPG";
 import teacher6 from "./assets/6.JPG";
 
@@ -24,13 +23,8 @@ function Teachers() {
     return(
         <div id="teachers" className="teachersContainer">
           <h1>Some of Our Teachers</h1>
+          
           <div className="teachers">
-            <Teacher id="teacherId1" image={teacher1} name="Musinguzi Didas" responsibility="Dean of Studies."/>
-            <Teacher id="teacherId2" image={teacher2} name="Ngabonziza Dan" responsibility="Teacher of Social Studies." />
-            <Teacher id="teacherId3" image={teacher3} name="Namara Frank" responsibility="Head Master." />
-          </div>
-          <div className="teachers">
-            <Teacher id="teacherId4" image={teacher4} name="Ishimwe Eric" responsibility="Teacher of Science and Elementary Technology." />
             <Teacher id="teacherId5" image={teacher5} name="Shyaka George" responsibility="Teacher of Mathematics." />
             <Teacher id="teacherId6" image={teacher6} name="Namaseruka Gladys" responsibility="Teacher of English." />
           </div>
@@ -44,6 +38,10 @@ function Teachers() {
             <Teacher id="teacherId10" image={teacher10} name="Iradukunda Lilian" responsibility="Teacher of French." />
             <Teacher id="teacherId11" image={teacher11} name="Emmerance" responsibility="Teacher of Nursery." />
             <Teacher id="teacherId12" image={teacher12} name="Ahumuza Susan" responsibility="Teacher of Nursery." />
+          </div>
+          <div className="teachers">
+            <Teacher id="teacherId1" image={teacher1} name="Musinguzi Didas" responsibility="Dean of Studies."/>
+            <Teacher id="teacherId2" image={teacher2} name="Ngabonziza Dan" responsibility="Teacher of Social Studies." />
           </div>
         </div>
     )
