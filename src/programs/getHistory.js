@@ -5,7 +5,7 @@ function GetHistory() {
     let check = "true"
     useEffect(() => {
         async function getData() {
-            await fetch("https://www.backend.oleanderschool.com/backend/api/notaloneinfo").then(d=>d.json()).then(d => {
+            await fetch("http://localhost:3003/backend/api/notaloneinfo").then(d=>d.json()).then(d => {
                 setData([
                         [d[0]['notAlone']['yearOne'],d[0]['notAlone']['yearOneDescription']],
                         [d[0]['notAlone']['yearTwo'],d[0]['notAlone']['yearTwoDescription']],
