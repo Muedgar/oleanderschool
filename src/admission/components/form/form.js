@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./form.css";
+import StepOne from "./stepOne";
+import StepTwo from "./stepTwo";
+import StepThree from "./stepThree";
+import StepFour from "./stepFour";
 
 function FormAdmissions() {
+  let [currentStep, setCurrentStep] = useState(1)
     return(
         <div class="forms">
   <div class="navigation">
     <div class="nav-item-forms">
-     <div class="nav-item-count active">
+     <div class={currentStep===1?"nav-item-count active":"nav-item-count"}>
        <p>1</p>
      </div>
      <div class="nav-item-name">
@@ -16,7 +21,7 @@ function FormAdmissions() {
      </div>
     </div>
     <div class="nav-item-forms">
-     <div class="nav-item-count">
+     <div class={currentStep===2?"nav-item-count active":"nav-item-count"}>
        <p>2</p>
      </div>
      <div class="nav-item-name">
@@ -25,7 +30,7 @@ function FormAdmissions() {
      </div>
     </div>
     <div class="nav-item-forms">
-     <div class="nav-item-count">
+     <div class={currentStep===3?"nav-item-count active":"nav-item-count"}>
        <p>3</p>
      </div>
      <div class="nav-item-name">
@@ -34,7 +39,7 @@ function FormAdmissions() {
      </div>
     </div>
     <div class="nav-item-forms">
-     <div class="nav-item-count">
+     <div class={currentStep===4?"nav-item-count active":"nav-item-count"}>
        <p>4</p>
      </div>
      <div class="nav-item-name">
@@ -43,23 +48,66 @@ function FormAdmissions() {
      </div>
     </div>
   </div>
-  <div class="step-1">
-   <div class="stepTitle">
-     <h1>Personal info</h1>
-     <p>Please provide your name, email address, and phone number.</p>
+  {currentStep===1?
+    <div class="step-1">
+  <StepOne />
+
+  <div class="buttonContainer">
+     <button class="form-button" onClick={e => {
+      let count = currentStep + 1;
+      setCurrentStep(count)
+     }}>Next Step</button>
    </div>
-   <div class="inputControl">
-     <label><span>Email Address</span> <span></span></label>
-     <input class="inputStyles" type="text" placeholder="example@email.com" />
+  </div>:''  
+}
+{currentStep===2?
+    <div class="step-1">
+  <StepTwo />
+
+  <div class="buttonContainer">
+     <button class="form-button" onClick={e => {
+      let count = currentStep - 1;
+      setCurrentStep(count)
+     }}>Previous</button>
+     <button class="form-button" onClick={e => {
+      let count = currentStep + 1;
+      setCurrentStep(count)
+     }}>Next Step</button>
    </div>
-   <div class="inputControl">
-     <label><span>Phone Number</span> <span>This field is required</span></label>
-     <input class="inputStyles" type="text" placeholder="example@email.com" />
+  </div>:''  
+}
+
+{currentStep===3?
+    <div class="step-1">
+  <StepThree />
+
+  <div class="buttonContainer">
+     <button class="form-button" onClick={e => {
+      let count = currentStep - 1;
+      setCurrentStep(count)
+     }}>Previous</button>
+     <button class="form-button" onClick={e => {
+      let count = currentStep + 1;
+      setCurrentStep(count)
+     }}>Next Step</button>
    </div>
-   <div class="buttonContainer">
-     <button class="form-button">Next Step</button>
+  </div>:''  
+}
+{currentStep===4?
+    <div class="step-1">
+  <StepFour />
+
+  <div class="buttonContainer">
+  <button class="form-button" onClick={e => {
+      let count = currentStep - 1;
+      setCurrentStep(count)
+     }}>Previous</button>
+     <button class="form-button" onClick={e => {
+      console.log("submiting")
+     }}>Submit</button>
    </div>
-  </div>
+  </div>:''  
+}
  </div>
     )
 }

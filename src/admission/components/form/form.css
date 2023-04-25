@@ -70,7 +70,7 @@
       width: 100%;
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
+      justify-content: space-around;
     }
     .form-button {
       background-color: hsl(213, 96%, 18%);
@@ -102,6 +102,9 @@
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
+      align-items: center;
+      padding: 30px;
+      cursor: pointer;
     }
     .nav-item-count{
       width: 30px;
@@ -114,22 +117,24 @@
       align-items: center;
       font-size: 15px;
       font-family: Arial, Helvetica, sans-serif;
-      margin-top: 30px;
-      margin-left: 30px;
       background-color: transparent;
       color: white;
+      margin: 10px;
     }
     .active {
       color: black;
       background-color: hsl(206, 94%, 87%);
+    }
+    .nav-item-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
     .nav-item-name p:nth-child(1) {
       font-size: 15px;
       font-weight: lighter;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: hsl(229, 24%, 87%);
-      margin-left: 10px;
-      margin-top: 30px;
       text-transform: uppercase;
     }
     .nav-item-name p:nth-child(2) {
@@ -137,8 +142,6 @@
       font-weight: 400;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: white;
-      margin-left: 10px;
-      margin-top: -15px;
       text-transform: uppercase;
     }
     .forms {
