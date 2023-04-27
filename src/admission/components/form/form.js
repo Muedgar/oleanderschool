@@ -17,7 +17,7 @@ function FormAdmissions() {
      </div>
      <div class="nav-item-name">
        <p>Step 1</p>
-       <p>Your Info</p>
+       <p>Student Information</p>
      </div>
     </div>
     <div class="nav-item-forms">
@@ -26,7 +26,7 @@ function FormAdmissions() {
      </div>
      <div class="nav-item-name">
        <p>Step 2</p>
-       <p>Select plan</p>
+       <p>Parents Information</p>
      </div>
     </div>
     <div class="nav-item-forms">
@@ -35,7 +35,7 @@ function FormAdmissions() {
      </div>
      <div class="nav-item-name">
        <p>Step 3</p>
-       <p>Add-ons</p>
+       <p>Student Health</p>
      </div>
     </div>
     <div class="nav-item-forms">
@@ -44,7 +44,7 @@ function FormAdmissions() {
      </div>
      <div class="nav-item-name">
        <p>Step 4</p>
-       <p>Summary</p>
+       <p>Supporting Documents</p>
      </div>
     </div>
   </div>

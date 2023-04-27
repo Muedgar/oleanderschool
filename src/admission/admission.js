@@ -10,8 +10,8 @@ function Admission() {
         <>
             <NavBar />
             <FormAdmissions />
-            {/* <h1 style={{margin: "150px auto", width: "fit-content", height: "50px", fontFamily: "gilli"}}>Page Under Construction</h1> */}
-            <Footer />
+            <h1 style={{margin: "150px auto", width: "fit-content", height: "50px", fontFamily: "gilli"}}>Page Under Construction</h1>
+            {/* <Footer /> */}
         </>
     )
 }

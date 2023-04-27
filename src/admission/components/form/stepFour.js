@@ -4,18 +4,29 @@ function StepFour() {
     return(
         <>
    <div class="stepTitle">
-     <h1>Personal info</h1>
-     <p>Please provide your name, email address, and phone number.</p>
+     <h1>Supporting Documents</h1>
+     {/* <p>Please provide your name, email address, and phone number.</p> */}
    </div>
-   <div class="inputControl">
-     <label><span>Email Address</span> <span></span></label>
-     <input class="inputStyles" type="text" placeholder="example@email.com" />
-   </div>
-   <div class="inputControl">
-     <label><span>Phone Number</span> <span>This field is required</span></label>
-     <input class="inputStyles" type="text" placeholder="example@email.com" />
-   </div>
+  <div style={{
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: '50px',
+    marginBottom: '30px'
+  }}>
+  <button onMouseOver={e => {
+    e.target.style.boxShadow = '5px 5px black'
+  }}  onMouseLeave={e => {
+    e.target.style.boxShadow = '10px 10px black'
+  }} style={{
+    width: 'fit-content',
+    padding: '20px',
+    boxShadow: '10px 10px black',
+    backgroundColor: 'greenyellow'
+   }}>Upload Student School Report Card For Recent Year or Term</button>
    
+    </div>
   </>
     )
 }

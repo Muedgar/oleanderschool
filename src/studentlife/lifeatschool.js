@@ -18,7 +18,7 @@ function LIFEATSCHOOL() {
   ///
 let getNews = "get"
   const handleNews = async () => {
-    await fetch("http://localhost:3003/backend/api/news")
+    await fetch("https://www.backend.oleanderschool.com/backend/api/news")
     .then(d => d.json())
     .then(d => setNews(d))
     .catch(e => console.log(e.message))

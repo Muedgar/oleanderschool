@@ -1,20 +1,18 @@
 import React from "react";
+import InputField from "./components/InputField";
 
 function StepThree() {
     return(
         <>
    <div class="stepTitle">
-     <h1>Personal info</h1>
-     <p>Please provide your name, email address, and phone number.</p>
+     <h1>Student Health</h1>
+     {/* <p>Please provide your name, email address, and phone number.</p> */}
    </div>
-   <div class="inputControl">
-     <label><span>Email Address</span> <span></span></label>
-     <input class="inputStyles" type="text" placeholder="example@email.com" />
-   </div>
-   <div class="inputControl">
-     <label><span>Phone Number</span> <span>This field is required</span></label>
-     <input class="inputStyles" type="text" placeholder="example@email.com" />
-   </div>
+   <InputField
+      label="Does a student have a health related situation that needs extra care?"
+      type="text"
+      placeholder="e.g. yes"
+     />
    
   </>
     )
