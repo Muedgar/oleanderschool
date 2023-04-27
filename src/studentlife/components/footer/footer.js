@@ -13,7 +13,7 @@ import "./footertwo.css";
 
 function Footer() {
     return(
-        <div className="footerContainer">
+        <div style={{position: 'relative', zIndex: '100'}} className="footerContainer">
           {/* <div id="footerContainer-top-id" className="footerContainer-top">
             <div>
               <p>Subscribe to Our Newsletters.</p>
