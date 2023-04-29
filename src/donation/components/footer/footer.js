@@ -44,10 +44,10 @@ function Footer() {
                 <ul>
                   <li><a href="/" rel="noreferrer">Home</a></li>
                   <li><a href="/programs" rel="noreferrer">Our programs</a></li>
-                  <li><a href="/admissionprocess" rel="noreferrer">Admission process</a></li>
+                  <li><a href="#admission" rel="noreferrer">Admission process</a></li>
                   <li><a href="/schoolvalue" rel="noreferrer">School values</a></li>
                   <li><a href="/studentlife" rel="noreferrer">Student life</a></li>
-                  <li><a href="#donation" rel="noreferrer">Donation</a></li>
+                  <li><a href="/donation" rel="noreferrer">Donation</a></li>
                 </ul>
               </div>
               <div className="footerContainer-bottom-top-middle-2">

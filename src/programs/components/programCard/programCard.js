@@ -35,12 +35,6 @@ function ProgramCard() {
                 <ErrorBoundary fallback={<ErrorMessage message="Loading information ..." />}>
                             <GetSummary />
                 </ErrorBoundary>
-                <h2>Getting involved:</h2>
-                <ul>
-                    {career.requirements.map((requirement,index)=> (
-                        <li key={index}>{requirement}</li>
-                    ))}
-                </ul>
                 <div><button onClick={e => {
                     window.location = "/donation";
                 }}>Get Involved.</button></div>
