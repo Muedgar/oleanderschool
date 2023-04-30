@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./components/footer/footer";
 import NavBar from "./components/navbar/navbar";
 
-import "./Donation.css"
+import "./donation.css"
 import FormAdmissions from "./components/form/form";
 
 function Donation() {
