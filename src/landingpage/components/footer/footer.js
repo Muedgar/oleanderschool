@@ -58,7 +58,7 @@ function Footer() {
                 <h5><span>Wednesday</span><span>08:00 - 17:00</span></h5>
                 <h5><span>Thursday</span><span>08:00 - 17:00</span></h5>
                 <h5><span>Friday</span><span>08:00 - 17:00</span></h5>
-                <h5><span>Saturday</span><span>Closed</span></h5>
+                <h5><span>Saturday</span><span>08:00-13:00</span></h5>
                 <h5><span>Sunday</span><span>Closed</span></h5>
                 </div>
               </div>
@@ -67,7 +67,8 @@ function Footer() {
                 <div>
                 <h5><span><img src={location} alt="location"/></span><span>Gitaraga - Masaka, Kicukiro - Kigali, Rwanda</span></h5>
                 <h5><span><img src={mail} alt="mail"/></span><span><a target="_blank" rel="noreferrer" href="mailto:olns2015@gmail.com">olns2015@gmail.com</a></span></h5>
-                <h5><span><img src={phone} alt="phone"/></span><span><a target="_parent" rel="noreferrer" href="tel:+250788507087">+250788507087</a></span></h5>
+                <h5><span><img src={phone} alt="phone"/></span><span><a target="_parent" rel="noreferrer" href="tel:+250783382679">+250783382679</a></span></h5>
+                <h5><span><img src={phone} alt="phone"/></span><span><a target="_parent" rel="noreferrer" href="tel:+250785303654">+250785303654</a></span></h5>
                 </div>
                 {/* <div className="connectwithus">
                 <h5><a href="#2"><img src={instagram} alt="location"/></a></h5>

@@ -20,7 +20,7 @@ function ContactUs() {
                 e.preventDefault();
                 document.getElementById("callus").click();
             }}>Contact Us</button>
-            <a target="_parent" id="callus" rel="noreferrer" href="tel:+250788507087" style={{display:"none"}}>Call us</a>
+            <a target="_parent" id="callus" rel="noreferrer" href="tel:+250783382679" style={{display:"none"}}>Call us</a>
         </div>
     )
 }
