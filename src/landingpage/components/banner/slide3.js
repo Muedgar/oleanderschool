@@ -9,10 +9,10 @@ export const Slide3 = () => {
             <Card>
       <Card.Img variant="top" src={graduate} />
       <Card.Body>
-        <Card.Title>What we do at Oleander?</Card.Title>
+        <Card.Title>AIMING FOR QUALITY EDUCATION</Card.Title>
         <Card.Text>
-            We provide quality education in line with Rwandan culture and Christian values through empowering children to become productive citizens.
-        </Card.Text>
+        Our school provides edification to enhance the Christian values formation of the individual child and molds his/her intellect with standard knowledge and skills through quality education for him/her to become highly competent, to become an exemplary citizen.
+</Card.Text>
         <Button variant="primary" onClick={e=> {
             e.preventDefault();
             window.location = "/schoolvalue";

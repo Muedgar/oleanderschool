@@ -8,7 +8,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import {Slide1} from "./slide1";
 import {Slide2} from "./slide2";
 import {Slide3} from "./slide3";
 
@@ -31,9 +30,6 @@ const Banner = () => {
                 scrollbar={{draggable: true}}
                 slidesPerView={1}
             >
-                <SwiperSlide>
-                    <Slide1 />
-                </SwiperSlide>
                 <SwiperSlide>
                     <Slide2 />
                 </SwiperSlide>

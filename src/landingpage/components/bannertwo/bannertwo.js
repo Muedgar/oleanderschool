@@ -18,10 +18,10 @@ function BannerTwo() {
                     <Card.Img variant="top" src={customer} />
                 </div>
                 <Card.Body>
-                    <Card.Title className="cardTitle">Parent - Student Support</Card.Title>
+                    <Card.Title className="cardTitle">Affordable education</Card.Title>
                     <Card.Text>
-                     Our school provides direct support to learning before and during formal education, as well as indirect facilitating of factors such as nutrition, health, hygiene, school and home communication, assistance in learning activities at home, participation in school events, and participation in school-decision-making bodies.
-                    </Card.Text>
+                    Our school provides quality education with affordable school fees and excellent feeding programs for both nursery and primary sections.
+                     </Card.Text>
                 </Card.Body>
             </Card>
             <Card>
@@ -31,8 +31,8 @@ function BannerTwo() {
                 <Card.Body>
                     <Card.Title className="cardTitle">Quality Education</Card.Title>
                     <Card.Text>
-                        We teach our students to think intensively and to think critically. We encourage students to explore ideas, make choices, and value their own dignity and worth.
-                    </Card.Text>
+                    We teach our students to think intensively and to think critically. We encourage students to explore ideas, make choices, and value their own dignity and worth emphasizing developing their talents based on Christian and cultural values.
+                        </Card.Text>
                 </Card.Body>
             </Card>
             
@@ -41,9 +41,9 @@ function BannerTwo() {
                     <Card.Img variant="top" src={graduate} />
                 </div>
                 <Card.Body>
-                    <Card.Title className="cardTitle">Scholarship News</Card.Title>
+                    <Card.Title className="cardTitle">NTURI WENYINE Program</Card.Title>
                     <Card.Text>
-                    We provide financial support to a student, based on academic achievement or other criteria that may include financial need, for the purpose of schooling. 
+                    Nturi Wenyine is an initiative established by ONPS to help and advocate for vulnerable children in need of support through education scholarships and free counseling services. Nturi Wenyine focuses on reducing school dropout, access to quality education, and increasing the opportunities for equal rights to education.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -55,7 +55,7 @@ function BannerTwo() {
                 <Card.Body>
                     <Card.Title className="cardTitle">Expert teachers</Card.Title>
                     <Card.Text>
-                        Our teachers have 5000+ hours of practice, they have also proved to have a growth mindset required at our school.
+                        Our teaching staff have passion and experience in education, possess excellent organizational skills, and can connect easily with students. They have also proved to have a growth mindset required at our school to excel.    
                     </Card.Text>
                 </Card.Body>
             </Card>

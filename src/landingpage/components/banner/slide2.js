@@ -9,10 +9,11 @@ export const Slide2 = () => {
             <Card>
       <Card.Img variant="top" src={whatis} />
       <Card.Body>
-        <Card.Title>What is Oleander?</Card.Title>
+        <Card.Title>OLEANDER NURSERY AND PRIMARY SCHOOL</Card.Title>
         <Card.Text>
-            “Oleander Nursery and Primary School” works as private school regulated by Rwanda Ministry of Education (MINEDUC), it is also a legal registered school by Rwanda Development Board (RDB). 
-        </Card.Text>
+        Oleander Nursery and Primary School (ONPS) started in 2015 with 6 students and finished our first academic year with 30 students, currently, we have 500+ students. We have excellent Nursery and Primary sections with exceptional teaching staff.
+
+            </Card.Text>
         <Button variant="primary" onClick={e=> {
             e.preventDefault();
             window.location = "/schoolvalue";
