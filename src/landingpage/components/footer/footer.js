@@ -35,9 +35,7 @@ function Footer() {
             <div className="footerContainer-bottom-top">
               <div className="footerContainer-bottom-top-left">
                 <h1>Oleander Nursery and Primary School.</h1>
-                <p>
-                Oleander school is located in Rwanda in sub Saharan Africa, founded in 2015 in a small populated village called Rwintare in “Masaka Sector, just about 20 Miles away from the capital city center of Kigali      
-        </p>
+                
               </div>
               <div className="footerContainer-bottom-top-middle-1">
                 <h4>Quick links</h4>
