@@ -5,7 +5,7 @@ function StepOne() {
     return(
         <>
    <div class="stepTitle">
-     <h1>Student Information</h1>
+     <h1>Sponsor Information</h1>
      {/* <p>Please provide your name, email address, and phone number.</p> */}
    </div>
    <InputField

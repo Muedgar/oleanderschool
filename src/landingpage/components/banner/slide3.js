@@ -11,7 +11,7 @@ export const Slide3 = () => {
       <Card.Body>
         <Card.Title>AIMING FOR QUALITY EDUCATION</Card.Title>
         <Card.Text>
-        Our school provides edification to enhance the Christian values formation of the individual child and molds his/her intellect with standard knowledge and skills through quality education for him/her to become highly competent, to become an exemplary citizen.
+        Our school provides edification to enhance the Christian values formation of the individual child and molds his/her intellect with standard knowledge and skills through quality education for him/her to become highly competent and, an exemplary citizen.
 </Card.Text>
         <Button variant="primary" onClick={e=> {
             e.preventDefault();
