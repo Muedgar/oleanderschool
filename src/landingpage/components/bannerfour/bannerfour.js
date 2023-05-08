@@ -14,12 +14,12 @@ import { Pagination, Navigation } from "swiper";
 import './bannerfour.css';
 
 // import assets
-import slideImageOne from "./assets/DSC_6736.JPG";
-import slideImageTwo from "./assets/DSC_6746.JPG";
-import slideImageThree from "./assets/DSC_6772.JPG";
-import slideImageFour from "./assets/DSC_6777.JPG";
-import slideImageFive from "./assets/DSC_6788.JPG";
-import slideImageSix from "./assets/DSC_6796.JPG";
+import slideImageOne from "./assets/math.JPG";
+import slideImageTwo from "./assets/DSC_6846.JPG";
+import slideImageThree from "./assets/social.JPG";
+import slideImageFour from "./assets/languages.JPG";
+import slideImageFive from "./assets/DSC_6853.JPG";
+import slideImageSix from "./assets/ict.JPG";
 
 function BannerFour() {
     const [bannerImgFour, setBannerImgFour] = useState([]);
@@ -47,25 +47,13 @@ function BannerFour() {
             class: "P2"},
           {img:slideImageFour,
             time: "11:00am - 11:45am",
-            title: "English",
+            title: "Languages",
             description: "English is a West Germanic language in the Indo-European language family.",
             students: "27",
             class: "P1"},
-          {img:slideImageFive,
-            time: "14:00pm - 14:45pm",
-            title: "Kinyarwanda",
-            description: "Ikinyarwanda, is a Bantu language and the national language of Rwanda.",
-            students: "33",
-            class: "P3 A"},
-          {img:slideImageSix,
-            time: "15:00pm - 15:45pm",
-            title: "French",
-            description: "French is a language of the Indo-European family.",
-            students: "34",
-            class: "P3 B"},
           {img:slideImageSix,
             time: "16:00pm - 16:45pm",
-            title: "Reading and Writing",
+            title: "Information and communication technologies",
             description: "Literacy is your ability to read and write. These skills are important for school, at work, and at home.",
             students: "31",
             class: "P3 C"}]);
@@ -110,13 +98,13 @@ function BannerFour() {
             <SwiperSlide key={`bannerFourImgContainer${i}`}>
                 <div>
                     <img src={data.img} alt={`bannerfouralt${i}`} />
-                    <h4>{data.time}</h4>
-                    <h3>{data.title}</h3>
-                    <p>{data.description}</p>
-                    <div>
+                    {/* <h4>{data.time}</h4> */}
+                    <h3 style={{textTransform: 'uppercase'}}>{data.title}</h3>
+                    {/* <p>{data.description}</p> */}
+                    {/* <div>
                         <p>Students: {data.students}</p>
                         <p>Class: {data.class}</p>
-                    </div>
+                    </div> */}
                 </div>
             </SwiperSlide>
         ))}
